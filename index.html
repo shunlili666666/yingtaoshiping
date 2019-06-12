@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>樱桃视频永久网址</title>
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+    <link rel='prefetch' href='http://yingtaoshiping.space'>
+    <link rel="next" href="http://yingtaoshiping.space">
+
+    <!-- 为移动设备添加 viewport  minimal-ui 设置小米手机等自带浏览器为全屏模式 -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no,minimal-ui">
+    <!-- 添加到主屏后的标题（iOS 6 新增） -->
+    <meta name="apple-mobile-web-app-title" content="天下无色">
+    <!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏 -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- 设置苹果工具栏颜色 -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- UC强制全屏 -->
+    <meta name="full-screen" content="yes">
+    <!-- UC应用模式 --> 
+    <meta name="browsermode" content="application">
+    <!-- QQ强制全屏 -->
+    <meta name="x5-fullscreen" content="true">
+    <!-- QQ应用模式 -->
+    <meta name="x5-page-mode" content="app">
+    <style>
+        body,
+        html,
+        div,
+        h1,
+        h2,
+        h3,
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            overflow-x: hidden;
+            height: 100%;
+        }
+
+        html {
+            font-size: 100px;
+            min-height: 460px;
+        }
+
+        body {
+            font-size: .16rem;
+            line-height: 1.6;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #555;
+            background: #000;
+        }
+
+        .hide {
+            display: block;
+            width: 0;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .c_red {
+            color: red;
+        }
+        .logo{
+            display: block;
+            position: absolute;
+            top: .1rem;
+            left: .1rem;
+            width: 40px;
+            z-index: 999;
+        }
+
+        .wrap {
+            width: 100%;
+            min-width: 320px;
+            height: 100%;
+            padding-bottom: .4rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+        }
+
+        .wrap .jin {
+            position: relative;
+            width: 1.4rem;
+            height: 1.4rem;
+            margin-bottom: .2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: .06rem solid red;
+            border-radius: 50%;
+            font-size: .8rem;
+            box-sizing: border-box;
+
+        }
+
+        .wrap .jin::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 50%;
+            margin-left: -.02rem;
+            width: .05rem;
+            height: 100%;
+            background: red;
+            transform: rotateZ(-45deg);
+        }
+
+        .wrap h1 {
+            line-height: 1.6;
+            font-size: .3rem;
+            color: #fff;
+        }
+
+        .wrap .url_box {
+            margin-bottom: .14rem;
+            font-size: .24rem;
+        }
+
+        .wrap .input_text {
+            padding: 0;
+            margin: 0;
+            display: block;
+            width: 2rem;
+            height: .32rem;
+            line-height: .32rem;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, .5);
+            background: rgba(255, 255, 255, .1);
+            color: #ccc;
+            font-size: .16rem;
+        }
+
+        .wrap .input_text:focus {
+            border: 1px solid rgba(255, 255, 255, 1);
+            outline: 0;
+        }
+
+        .wrap .tishi {
+            margin-top: .1rem;
+            font-size: .18rem;
+        }
+
+        .wrap .shoudong {
+            display: block;
+            margin-top: .1rem;
+            height: .32rem;
+            line-height: .32rem;
+            text-align: center;
+        }
+
+        .wrap .shoudong a {
+            display: none;
+            width: 2rem;
+            height: 100%;
+            background: green;
+            text-decoration: none;
+            color: #fff;
+            border: 1px solid green;
+        }
+
+        .footer {
+            margin-top: -.4rem;
+            width: 100%;
+            height: .4rem;
+            line-height: .4rem;
+            text-align: center;
+            font-size: .12rem;
+        }
+    </style>
+</head>
+
+<body data-url="http://yingtaoshiping.space">
+    <img class="logo" src="./favicon.png">
+    <div class="wrap">
+        <div class="jin c_red">禁</div>
+        <h1>樱桃视频</h1>
+        <p class="url_box c_red" id="url">yingtaoshiping.com</p>
+        <input class="input_text" id="inputText" type="text" placeholder="输入网址，即可进入网站" autofocus>
+        <div class="shoudong">
+            <a href="#" id="shoudong">手动跳转</a>
+        </div>
+    </div>
+    <div class="footer c_red">本站只服务于年满18周岁人士，未成年请迅速离开!!!</div>
+    <script>
+        let thisUrl = document.getElementById('url').innerText;
+        let goUrl = document.getElementsByTagName('body')[0].getAttribute("data-url");
+        let inputText = document.getElementById('inputText');
+        let tishi = document.getElementById('tishi');
+        let shoudong = document.getElementById('shoudong');
+        let inputValue, timer, index = 3;
+        inputText.oninput = function () {
+            if (this.value != '' && this.value == thisUrl) {
+                inputText.value = '正确，马上为您跳转 ' + index;
+                inputText.disabled = true;
+                inputText.style.borderColor = 'green';
+                inputText.style.backgroundColor = 'green';
+                inputText.style.color = '#fff';
+                shoudong.href = goUrl;
+                shoudong.style.display = 'block';
+                timer = setInterval(function () {
+                    index--;
+                    inputText.value = '正确，马上为您跳转 ' + index;
+                    if (index <= 0) {
+                        index = 0;
+                        clearInterval(timer);
+                        window.location.href = goUrl;
+                    }
+                }, 1000);
+            }
+        }
+    </script>
+    <script type="text/javascript" src="//js.users.51.la/20083175.js"></script>
+</body>
+
+</html>
